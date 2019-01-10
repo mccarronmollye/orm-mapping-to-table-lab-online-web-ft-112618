@@ -1,6 +1,7 @@
 class Student
 
-  attr_accessor :id
+  #attr_accessor 
+  attr_reader :id
 
   def initialize 
      
