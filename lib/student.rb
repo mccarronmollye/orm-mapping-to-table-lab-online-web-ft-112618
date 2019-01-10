@@ -1,10 +1,8 @@
 class Student
 
-  attr_accessor :grade, :name, :id
+  attr_accessor :id
 
-  def initialize (grade:, name:, id: nil)
-    @grade = grade
-    @name = name 
+  def initialize (id: nil)
     @id = id
   end 
   
