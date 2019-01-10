@@ -6,7 +6,7 @@ class Student
     @id
   end 
 
-  def intitialize (grade:, name:, id: nil)
+  def initialize (grade:, name:, id: nil)
     @grade = grade
     @name = name 
     @id = id
