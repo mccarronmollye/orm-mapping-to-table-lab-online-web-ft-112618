@@ -35,7 +35,7 @@ class Student
  
     DB[:conn].execute(sql, self.name, self.grade)
     
-    @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0] #last_insert_rowid() is a sqlite function which does exactly what it sounds like!!!! 
+    @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0] #last_insert_rowid() is a sqlite function which does exactly what it sounds like!!!! However I don't understand what [0][0] means.. learn says we'll cover this later!
 
    end
   
